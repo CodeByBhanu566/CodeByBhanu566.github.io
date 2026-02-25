@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>लाटोर कार्स - Bhanu Pratap Singh Rathore</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+        }
+        header {
+            background: linear-gradient(to right, #2c3e50, #4ca1af);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 16px;
+            font-weight: 300;
+        }
+        nav {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 25px;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .car-section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .car-section h2 {
+            color: #333;
+            margin-bottom: 30px;
+            font-size: 28px;
+        }
+        .car-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        .car-item {
+            background: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 12px;
+            width: 280px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        .car-item img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .car-item h3 {
+            margin: 15px 0 10px;
+            color: #2c3e50;
+        }
+        .car-item p {
+            margin: 5px 0;
+            color: #555;
+            font-size: 16px;
+        }
+        .car-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>लाटोर कार्स</h1>
+        <p>Owned by Bhanu Pratap Singh Rathore</p>
+    </header>
+    <nav>
+        <a href="#india">Indian Cars</a>
+        <a href="#italy">Italian Cars</a>
+        <a href="#germany">German Cars</a>
+    </nav>
+    <div class="car-section" id="india">
+        <h2>Indian Cars</h2>
+        <div class="car-list">
+            <div class="car-item">
+                <img src="car1.jpg" alt="मारूति सुज़ुकी स्विफ्ट">
+                <h3>मारूति सुज़ुकी स्विफ्ट</h3>
+                <p>कीमत: ₹7,50,000</p>
+            </div>
+            <!-- और कार्स जोड़ें -->
+        </div>
+    </div>
+    <div class="car-section" id="italy">
+        <h2>Italian Cars</h2>
+        <div class="car-list">
+            <div class="car-item">
+                <img src="car2.jpg" alt="फेरारी 488 GTB">
+                <h3>फेरारी 488 GTB</h3>
+                <p>कीमत: ₹3,50,00,000</p>
+            </div>
+            <!-- और कार्स जोड़ें -->
+        </div>
+    </div>
+    <div class="car-section" id="germany">
+        <h2>German Cars</h2>
+        <div class="car-list">
+            <div class="car-item">
+                <img src="car3.jpg" alt="बीएमडब्ल्यू X5">
+                <h3>बीएमडब्ल्यू X5</h3>
+                <p>कीमत: ₹90,00,000</p>
+            </div>
+            <!-- और कार्स जोड़ें -->
+        </div>
+    </div>
+</body>
+</html>
